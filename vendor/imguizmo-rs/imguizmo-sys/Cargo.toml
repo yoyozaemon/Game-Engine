@@ -1,0 +1,11 @@
+[package]
+name = "imguizmo-sys"
+version = "0.0.1"
+authors = ["Aaron Loucks <aloucks@cofront.net>"]
+edition = "2018"
+
+[dependencies]
+imgui-sys = { path = "../../imgui-rs/imgui-sys" }
+
+[build-dependencies]
+cc = "1"

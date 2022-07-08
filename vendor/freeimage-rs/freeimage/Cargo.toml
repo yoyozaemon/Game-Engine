@@ -1,0 +1,15 @@
+[package]
+name    = "freeimage"
+authors = [ "Arturo Castro <mail@arturocastro.net>" ]
+description = "Rust idiomatic bindings for FreeImage"
+license = "MIT"
+homepage = "https://github.com/arturoc/freeimage-rs"
+repository = "https://github.com/arturoc/freeimage-rs"
+version = "0.2.1"
+
+[lib]
+name = "freeimage"
+path = "src/lib.rs"
+
+[dependencies]
+freeimage-sys = { path = "../freeimage-sys" }
