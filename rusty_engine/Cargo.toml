@@ -1,0 +1,47 @@
+[package]
+name = "rusty_engine"
+version = "0.1.0"
+edition = "2022"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "rusty_engine"
+path = "src/lib.rs"
+
+[dependencies]
+wio = "0.2.2"
+directx_math = "0.2.2"
+stb_image = "0.2.3"
+bitflags = "1.3.2"
+lazy_static = "1.4.0"
+regex = "1"
+legion = "0.4.0"
+serde = "1.0.133"
+serde_json = "1.0.78"
+russimp = { path = "../vendor/assimp-rs/assimp" }
+freeimage = { path = "../vendor/freeimage-rs/freeimage" }
+imgui = { path = "../vendor/imgui-rs/imgui" }
+imguizmo = { path = "../vendor/imguizmo-rs/imguizmo"}
+
+[dependencies.windows]
+version = "0.25.0"
+features = [
+    "Win32_Graphics_Dwm",
+    "Win32_Foundation",
+    "Win32_Graphics_Gdi",
+    "Win32_Graphics_Direct3D11",
+    "Win32_Graphics_Hlsl",
+    "Win32_Graphics_Dxgi",    
+
+    "Win32_System_Threading",
+    "Win32_System_WindowsProgramming",
+    "Win32_System_LibraryLoader",
+
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_UI_Input_KeyboardAndMouse",
+    "Win32_UI_Controls_Dialogs",
+
+    "Win32_System_SystemServices",
+    "Win32_System_WinRT",
+]
