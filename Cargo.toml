@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "rusty_engine",
+    "rusty_editor",
+    "rusty_runtime"
+]
