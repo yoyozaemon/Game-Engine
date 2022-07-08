@@ -1,3 +1,9 @@
+[package]
+name = "Game-Engine"
+version = "0.1.0"
+authors = ["Vijay J <vijay.j8779@gmail.com>"]
+edition = "2022"
+
 [workspace]
 members = [
     "rusty_engine",
