@@ -1,0 +1,35 @@
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-pc-windows-msvc")
+CXX_x86_64-pc-windows-msvc = None
+CXX_x86_64_pc_windows_msvc = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-pc-windows-msvc = None
+CXXFLAGS_x86_64_pc_windows_msvc = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src" "-I" "third_party/ImGuizmo" "-I" "C:\\Dev\\Rust\\rust_fmi_project\\rusty_engine\\vendor\\imgui-rs\\imgui-sys\\third-party\\imgui" "-I" "C:\\Dev\\Rust\\rust_fmi_project\\rusty_engine\\vendor\\imgui-rs\\imgui-sys\\third-party" "-W4" "-DCIMGUI_NO_EXPORT" "-DIMGUI_DISABLE_OSX_FUNCTIONS" "-DIMGUI_DISABLE_WIN32_FUNCTIONS" "-DIMGUI_USE_WCHAR32" "-Foc:\\Dev\\Rust\\rust_fmi_project\\rusty_engine\\bin\\debug\\build\\imguizmo-sys-6ba1219ffeb5a71f\\out\\third_party/ImGuizmo/ImGuizmo.o" "-c" "third_party/ImGuizmo/ImGuizmo.cpp"
+ImGuizmo.cpp
+third_party/ImGuizmo/ImGuizmo.cpp(851): warning C4189: 'io': local variable is initialized but not referenced
+third_party/ImGuizmo/ImGuizmo.cpp(2189): warning C4189: 'model': local variable is initialized but not referenced
+third_party/ImGuizmo/ImGuizmo.cpp(894): warning C4505: 'ImGuizmo::GetUniform': unreferenced function with internal linkage has been removed
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "src" "-I" "third_party/ImGuizmo" "-I" "C:\\Dev\\Rust\\rust_fmi_project\\rusty_engine\\vendor\\imgui-rs\\imgui-sys\\third-party\\imgui" "-I" "C:\\Dev\\Rust\\rust_fmi_project\\rusty_engine\\vendor\\imgui-rs\\imgui-sys\\third-party" "-W4" "-DCIMGUI_NO_EXPORT" "-DIMGUI_DISABLE_OSX_FUNCTIONS" "-DIMGUI_DISABLE_WIN32_FUNCTIONS" "-DIMGUI_USE_WCHAR32" "-Foc:\\Dev\\Rust\\rust_fmi_project\\rusty_engine\\bin\\debug\\build\\imguizmo-sys-6ba1219ffeb5a71f\\out\\src/cimguizmo.o" "-c" "src/cimguizmo.cpp"
+cimguizmo.cpp
+exit code: 0
+AR_x86_64-pc-windows-msvc = None
+AR_x86_64_pc_windows_msvc = None
+HOST_AR = None
+AR = None
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\lib.exe" "-out:c:\\Dev\\Rust\\rust_fmi_project\\rusty_engine\\bin\\debug\\build\\imguizmo-sys-6ba1219ffeb5a71f\\out\\libimguizmo.a" "-nologo" "c:\\Dev\\Rust\\rust_fmi_project\\rusty_engine\\bin\\debug\\build\\imguizmo-sys-6ba1219ffeb5a71f\\out\\third_party/ImGuizmo/ImGuizmo.o" "c:\\Dev\\Rust\\rust_fmi_project\\rusty_engine\\bin\\debug\\build\\imguizmo-sys-6ba1219ffeb5a71f\\out\\src/cimguizmo.o"
+exit code: 0
+cargo:rustc-link-lib=static=imguizmo
+cargo:rustc-link-search=native=c:\Dev\Rust\rust_fmi_project\rusty_engine\bin\debug\build\imguizmo-sys-6ba1219ffeb5a71f\out
+CXXSTDLIB_x86_64-pc-windows-msvc = None
+CXXSTDLIB_x86_64_pc_windows_msvc = None
+HOST_CXXSTDLIB = None
+CXXSTDLIB = None

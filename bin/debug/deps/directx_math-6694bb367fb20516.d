@@ -1,0 +1,12 @@
+c:\Dev\Rust\rust_fmi_project\rusty_engine\bin\debug\deps\directx_math-6694bb367fb20516.rmeta: C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\lib.rs C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\vector.rs C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\convert.rs C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\globals.rs C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\misc.rs C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\matrix.rs C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\collision.rs C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\packed_vector.rs
+
+c:\Dev\Rust\rust_fmi_project\rusty_engine\bin\debug\deps\directx_math-6694bb367fb20516.d: C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\lib.rs C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\vector.rs C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\convert.rs C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\globals.rs C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\misc.rs C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\matrix.rs C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\collision.rs C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\packed_vector.rs
+
+C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\lib.rs:
+C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\vector.rs:
+C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\convert.rs:
+C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\globals.rs:
+C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\misc.rs:
+C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\matrix.rs:
+C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\collision.rs:
+C:\Users\nikin\.cargo\registry\src\github.com-1ecc6299db9ec823\directx_math-0.2.2\src\packed_vector.rs:

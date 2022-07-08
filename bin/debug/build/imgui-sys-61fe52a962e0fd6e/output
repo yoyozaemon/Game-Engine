@@ -1,0 +1,34 @@
+cargo:THIRD_PARTY=C:\Dev\Rust\rust_fmi_project\rusty_engine\vendor\imgui-rs\imgui-sys\third-party
+cargo:DEFINE_IMGUI_USE_WCHAR32=
+cargo:DEFINE_CIMGUI_NO_EXPORT=
+cargo:DEFINE_IMGUI_DISABLE_WIN32_FUNCTIONS=
+cargo:DEFINE_IMGUI_DISABLE_OSX_FUNCTIONS=
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+CXX_x86_64-pc-windows-msvc = None
+CXX_x86_64_pc_windows_msvc = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-pc-windows-msvc = None
+CXXFLAGS_x86_64_pc_windows_msvc = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-DIMGUI_USE_WCHAR32" "-DCIMGUI_NO_EXPORT" "-DIMGUI_DISABLE_WIN32_FUNCTIONS" "-DIMGUI_DISABLE_OSX_FUNCTIONS" "-Foc:\\Dev\\Rust\\rust_fmi_project\\rusty_engine\\bin\\debug\\build\\imgui-sys-61fe52a962e0fd6e\\out\\include_all_imgui.o" "-c" "include_all_imgui.cpp"
+include_all_imgui.cpp
+exit code: 0
+AR_x86_64-pc-windows-msvc = None
+AR_x86_64_pc_windows_msvc = None
+HOST_AR = None
+AR = None
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\lib.exe" "-out:c:\\Dev\\Rust\\rust_fmi_project\\rusty_engine\\bin\\debug\\build\\imgui-sys-61fe52a962e0fd6e\\out\\libcimgui.a" "-nologo" "c:\\Dev\\Rust\\rust_fmi_project\\rusty_engine\\bin\\debug\\build\\imgui-sys-61fe52a962e0fd6e\\out\\include_all_imgui.o"
+exit code: 0
+cargo:rustc-link-lib=static=cimgui
+cargo:rustc-link-search=native=c:\Dev\Rust\rust_fmi_project\rusty_engine\bin\debug\build\imgui-sys-61fe52a962e0fd6e\out
+CXXSTDLIB_x86_64-pc-windows-msvc = None
+CXXSTDLIB_x86_64_pc_windows_msvc = None
+HOST_CXXSTDLIB = None
+CXXSTDLIB = None

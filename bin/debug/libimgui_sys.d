@@ -1,0 +1,1 @@
+C:\Dev\Rust\rust_fmi_project\rusty_engine\bin\debug\libimgui_sys.rlib: C:\Dev\Rust\rust_fmi_project\rusty_engine\vendor\imgui-rs\imgui-sys\build.rs C:\Dev\Rust\rust_fmi_project\rusty_engine\vendor\imgui-rs\imgui-sys\src\bindings.rs C:\Dev\Rust\rust_fmi_project\rusty_engine\vendor\imgui-rs\imgui-sys\src\lib.rs

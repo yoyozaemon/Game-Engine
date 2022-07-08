@@ -1,0 +1,1 @@
+cargo:rustc-cfg=_XM_SSE_INTRINSICS_

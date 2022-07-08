@@ -1,0 +1,4 @@
+assimp/include\assimp/texture.h:83:10: warning: the current #pragma pack alignment value is modified in the included file [-Wpragma-pack], err: false
+assimp/include\assimp/texture.h:118:10: warning: the current #pragma pack alignment value is modified in the included file [-Wpragma-pack], err: false
+assimp/include\assimp/material.h:468:10: warning: the current #pragma pack alignment value is modified in the included file [-Wpragma-pack], err: false
+assimp/include\assimp/material.h:515:10: warning: the current #pragma pack alignment value is modified in the included file [-Wpragma-pack], err: false

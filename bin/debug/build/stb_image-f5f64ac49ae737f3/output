@@ -1,0 +1,49 @@
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+TARGET = Some("x86_64-pc-windows-msvc")
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+CC_x86_64-pc-windows-msvc = None
+CC_x86_64_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+CFLAGS_x86_64-pc-windows-msvc = None
+CFLAGS_x86_64_pc_windows_msvc = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "/nologo" "/MD" "/Z7" "/W4" "/Foc:\\Dev\\Rust\\rust_fmi_project\\rusty_engine\\bin\\debug\\build\\stb_image-f5f64ac49ae737f3\\out\\src/stb_image.o" "/c" "src/stb_image.c"
+stb_image.c
+src/stb_image.c(3506): warning C4456: declaration of 'k' hides previous local declaration
+src/stb_image.c(3473): note: see declaration of 'k'
+src/stb_image.c(4115): warning C4456: declaration of 'cur' hides previous local declaration
+src/stb_image.c(4066): note: see declaration of 'cur'
+src/stb_image.c(4116): warning C4456: declaration of 'i' hides previous local declaration
+src/stb_image.c(3963): note: see declaration of 'i'
+src/stb_image.c(4913): warning C4457: declaration of 'y' hides function parameter
+src/stb_image.c(4848): note: see declaration of 'y'
+src/stb_image.c(5355): warning C4456: declaration of 'i' hides previous local declaration
+src/stb_image.c(5350): note: see declaration of 'i'
+src/stb_image.c(5597): warning C4456: declaration of 'code' hides previous local declaration
+src/stb_image.c(5562): note: see declaration of 'code'
+src/stb_image.c(5736): warning C4244: '=': conversion from 'int' to 'stbi_uc', possible loss of data
+src/stb_image.c(5655): warning C4100: 'req_comp': unreferenced formal parameter
+exit code: 0
+TARGET = Some("x86_64-pc-windows-msvc")
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\lib.exe" "/OUT:c:\\Dev\\Rust\\rust_fmi_project\\rusty_engine\\bin\\debug\\build\\stb_image-f5f64ac49ae737f3\\out\\libstb_image.a" "/nologo" "c:\\Dev\\Rust\\rust_fmi_project\\rusty_engine\\bin\\debug\\build\\stb_image-f5f64ac49ae737f3\\out\\src/stb_image.o"
+exit code: 0
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+TARGET = Some("x86_64-pc-windows-msvc")
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+CC_x86_64-pc-windows-msvc = None
+CC_x86_64_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+cargo:rustc-link-lib=static=stb_image
+cargo:rustc-link-search=native=c:\Dev\Rust\rust_fmi_project\rusty_engine\bin\debug\build\stb_image-f5f64ac49ae737f3\out

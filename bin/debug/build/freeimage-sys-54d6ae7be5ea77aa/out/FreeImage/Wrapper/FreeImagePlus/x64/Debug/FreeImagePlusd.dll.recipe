@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>c:\Dev\Rust\rust_fmi_project\rusty_engine\bin\debug\build\freeimage-sys-54d6ae7be5ea77aa\out\FreeImage\x64\Debug\FreeImaged.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>c:\Dev\Rust\rust_fmi_project\rusty_engine\bin\debug\build\freeimage-sys-54d6ae7be5ea77aa\out\FreeImage\Wrapper\FreeImagePlus\x64\Debug\FreeImagePlusd.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

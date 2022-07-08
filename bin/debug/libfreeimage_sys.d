@@ -1,0 +1,1 @@
+C:\Dev\Rust\rust_fmi_project\rusty_engine\bin\debug\libfreeimage_sys.rlib: C:\Dev\Rust\rust_fmi_project\rusty_engine\vendor\freeimage-rs\freeimage-sys\build.rs C:\Dev\Rust\rust_fmi_project\rusty_engine\vendor\freeimage-rs\freeimage-sys\empty.rs
