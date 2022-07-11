@@ -1,6 +1,6 @@
 # Game-Engine/Rusty-Engine
 
-Game engine project for FMI Rust Programming course. The engine uses DirectX 11 for rendering as well as Win32 API for its other systems, making it support Windows OS only.
+Game engine project. The engine uses DirectX 11 for rendering as well as Win32 API for its other systems, making it support Windows OS only.
 Currently implemented features:
 - Input and event systems
 - Window system
